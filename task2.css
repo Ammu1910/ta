@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 100px;
+    background-color:beige;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.form {
+    display:flex;
+    justify-content: space-between;
+    flex-direction:row-reverse;
+    /* border: 2px solid black; */
+    align-items:center;
+    margin-top: 20px;
+    margin-right: 20%;
+    padding: 2px 25%; 
+}
+
+input[type="text"], input[type="file"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 30px;
+    border: 2px solid black;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+#addImageButton:disabled{
+    cursor: not-allowed;
+    background-color: grey;
+}
+
+.profile-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    text-align: center;
+}
+
+.profile-card img {
+   width: 200px;
+   height: 200px;
+   display: block;
+    margin: 0 auto 10px;
+}
+
+.profile-card div {
+    font-weight: bold;
+}
+
+.delete-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+}
+.label-image{
+    background-image: url("image upload.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:10%
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile Form</title>
+    <link rel="stylesheet" href="task2.css">
+    <!-- <style>
+        img{
+            width: 100px;
+        }
+    </style> -->
+</head>
+<body>
+    <h1>Adding info</h1>
+    <div class="form">
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <label class="label-image" for="imageInput"> select a image 
+            <!-- <img src="image upload.jpg"/> select a image -->
+        </label>
+        <input type="file" id="imageInput"  style="visibility:hidden;" accept="image/*" onchange="displaySelectedImage(this)">
+        <!-- <button id="addImageButton" >Add info</button> -->
+    </div>
+    <button id="addImageButton" style="width: 17%; ">Add info </button>
+    <div id="profileContainer" style="border: 2px solid blue;"></div>
+    <script src="task2.js"></script>
+</body>
+</html>
